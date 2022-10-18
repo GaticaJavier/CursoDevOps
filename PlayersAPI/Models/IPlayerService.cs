@@ -5,6 +5,6 @@ namespace PlayersAPI.Models
 {
     public interface IPlayerService
     {
-        IEnumerable<PlayerDTO> ListPlayers();
+        IEnumerable<PlayerDTO> GetPlayers();
     }
 }

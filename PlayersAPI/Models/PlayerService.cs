@@ -16,7 +16,7 @@ namespace PlayersAPI.Models
             _repository = repository;
         }
 
-        public IEnumerable<PlayerDTO> ListPlayers()
+        public IEnumerable<PlayerDTO> GetPlayers()
         {
             return _repository.ListPlayers().AsQueryable().Select(asPlayerDTO);            
         }

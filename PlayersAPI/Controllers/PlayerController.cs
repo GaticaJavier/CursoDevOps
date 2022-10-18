@@ -24,7 +24,7 @@ namespace PlayersAPI.Controllers
         [HttpGet("players")]
         public IEnumerable<PlayerDTO> GetPlayers()
         {
-            return _service.ListPlayers();
+            return _service.GetPlayers();
         }
     }
 }
