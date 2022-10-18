@@ -8,6 +8,7 @@ Para las posteriores ejecuciones, cuando el container ya se encuentra creado, de
 
 Este es un ejemplo de la respuesta de la API:
 
+![image](https://user-images.githubusercontent.com/114956468/196462605-e7b820ac-b9d7-4e22-8ff4-891c9b1ffc59.png)
 
 ### Base de datos[^note]
 Para poder crear el container y ejeutar la base de datos debemos ejecutar el siguiente comando: `docker run -d -p 27017:27017 --name players-mongo mongo`
